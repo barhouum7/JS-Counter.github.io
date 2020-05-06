@@ -54,6 +54,7 @@ h1 {
   margin: 2rem 2rem;
   border: 2px solid #fff;
   border-radius: 100%;
+  background-color: transparent;
   font-size: 2.2rem;
   cursor: pointer;
 }
@@ -63,6 +64,10 @@ h1 {
   border-color: greenyellow;
   background: rgba(38, 39, 43, .5);
 
+}
+
+.btn:focus {
+  outline-style: none;
 }
 
 #minus-button {
